@@ -4,7 +4,6 @@ const arr = [0,0,0,1,0,2,0,0,0,3,4,5,6,0,0,7,0,8];
 const reOrderArr = (arr) => {
     let l = 0;
     let r = 1;
-    let zeroPos = 0;
     while (r < arr.length) {
         if (arr[l] == 0) {
             if (arr[r] != 0) {
